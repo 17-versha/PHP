@@ -5,6 +5,7 @@ date_default_timezone_set('Indian/Reunion');
 
 
 $hours = array(
+    'sun' => array('00:00-00:00'),
     'mon' => array('00:00-00:00'),
     'tue' => array('13:00-21:00'),
     'wed' => array('13:00-21:00'),
@@ -49,7 +50,7 @@ $is_exception = false;
 $is_closed_all_day = false;
 
 
-if($hours[$day][0] == '00:00-00:00') {
+if($hours[][0] == '00:00-00:00') {
 	$is_closed_all_day = true;
 }
 
